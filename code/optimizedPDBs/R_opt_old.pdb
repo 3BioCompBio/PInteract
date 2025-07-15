@@ -1,0 +1,12 @@
+REMARK   4 1R_O COMPLIES WITH FORMAT V. 2.0, 21-MAR-2000                        
+ATOM      1  NE  ARG R   1       0.000  -1.321   0.000  0.00  0.00           N  
+ATOM      2  CZ  ARG R   1       0.000   0.000   0.000  0.00  0.00           C  
+ATOM      3  NH1 ARG R   1      -1.144   0.661   0.000  0.00  0.00           N  
+ATOM      4  NH2 ARG R   1       1.145   0.660   0.000  0.00  0.00           N  
+ATOM      5  H1  ARG R   1       0.849  -1.839   0.000  0.00  0.00           H  
+ATOM      6  H2  ARG R   1      -0.849  -1.839   0.000  0.00  0.00           H  
+ATOM      7  H3  ARG R   1      -1.168   1.655   0.000  0.00  0.00           H  
+ATOM      8  H4  ARG R   1      -2.018   0.186  -0.001  0.00  0.00           H  
+ATOM      9  H5  ARG R   1       2.018   0.185   0.001  0.00  0.00           H  
+ATOM     10  H6  ARG R   1       1.169   1.655   0.000  0.00  0.00           H  
+TER                                                                             

@@ -1,0 +1,12 @@
+HEADER
+ATOM      1  NE  ARG R   1       0.000  -1.321   0.000
+ATOM      2  CZ  ARG R   1       0.000   0.000   0.000
+ATOM      3  NH1 ARG R   1      -1.144   0.661   0.000
+ATOM      4  NH2 ARG R   1       1.144   0.661   0.000
+ATOM      5  H1  ARG R   1       0.848  -1.840   0.000
+ATOM      6  H2  ARG R   1      -0.849  -1.840   0.000
+ATOM      7  H3  ARG R   1      -1.168   1.656   0.000
+ATOM      8  H4  ARG R   1      -2.018   0.186  -0.001
+ATOM      9  H5  ARG R   1       2.018   0.185   0.001
+ATOM     10  H6  ARG R   1       1.169   1.655   0.000
+TER                                                                             

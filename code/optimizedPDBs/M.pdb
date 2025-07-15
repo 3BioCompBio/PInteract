@@ -1,0 +1,10 @@
+HEADER NOT OPTIMIZED, TAKEN FROM 1CRX.pdb
+ATOM     83  N   MET A  30      46.069  39.310 107.307  1.00 27.29      A    N  
+ATOM     84  CA  MET A  30      47.276  39.551 108.088  1.00 30.92      A    C  
+ATOM     85  C   MET A  30      47.701  38.425 109.036  1.00 31.57      A    C  
+ATOM     86  O   MET A  30      48.841  37.952 108.988  1.00 32.44      A    O  
+ATOM     87  CB  MET A  30      47.103  40.839 108.885  1.00 39.31      A    C  
+ATOM     88  CG  MET A  30      48.043  41.946 108.475  1.00 43.89      A    C  
+ATOM     89  SD  MET A  30      47.728  43.420 109.438  1.00 58.05      A    S  
+ATOM     90  CE  MET A  30      46.036  43.746 108.958  1.00 50.10      A    C  
+END

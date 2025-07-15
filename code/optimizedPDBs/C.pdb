@@ -1,0 +1,8 @@
+HEADER NOT OPTIMIZED, TAKEN FROM 1CRX.pdb
+ATOM    249  N   CYS A  49      49.858  50.299 118.703  1.00 23.73      A    N  
+ATOM    250  CA  CYS A  49      48.413  50.191 118.865  1.00 23.22      A    C  
+ATOM    251  C   CYS A  49      48.074  50.410 120.334  1.00 26.28      A    C  
+ATOM    252  O   CYS A  49      47.161  51.164 120.666  1.00 26.39      A    O  
+ATOM    253  CB  CYS A  49      47.927  48.815 118.431  1.00 23.24      A    C  
+ATOM    254  SG  CYS A  49      48.208  48.463 116.688  1.00 28.44      A    S  
+END
