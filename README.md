@@ -75,7 +75,7 @@ The dataset is freely accessible for **non-commercial use only**. For **commerci
 
 ## 🔗 Citation
 
-Please cite our publication when using AbAgym in your research:
+Please cite our publication when using **PInteract** in your research:
 
 ```bibtex
 @article{,
