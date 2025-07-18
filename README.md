@@ -67,10 +67,6 @@ PInteract1.csv: Table of π-interaction chains (triads). Even though a π-chain 
 PInteract.txt: Human-readable summary, including all information in the CSV files, with comments prefixed by \#.
 
 
-## ⚠️ License
-
-The dataset is freely accessible for **non-commercial use only**. For **commercial applications**, please contact us (Fabrizio.Pucci@ulb.be).
-
 ---
 
 ## 🔗 Citation
