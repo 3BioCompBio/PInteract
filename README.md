@@ -1,7 +1,7 @@
 
 # 🧬 PInteract: 
 
-**PInteract** is a tool for the identification of π-involving interactions in protein structures and complexes, including protein–protein, protein–DNA, protein-RNA, and protein–ligand systems. Based on geometric criteria, it can detect:
+**PInteract** is a tool for the identification of π-involving interactions in protein structures and in protein–protein, protein–DNA, protein-RNA, and protein–ligand complexes (for ligands containing nucleic acid bases). Based on geometric criteria, it can detect:
 - Individual π-interaction types, including cation–π, amino-π, His-π, sulfur–π and π-π interactions;
 - Clusters or chains of π interactions;
 - Stair motifs, which are recurrent motifs at protein-DNA/RNA interfaces and combine π-π stacking, cation/amino/His-π and H-bond interactions.
