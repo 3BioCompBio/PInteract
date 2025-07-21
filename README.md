@@ -65,7 +65,7 @@ PInteract.csv: Table of individual π interactions; each row corresponds to a si
 
 PInteract1.csv: Table of π-interaction chains and of stair motifs. Even though a π-chain may involve more than three residues, and a stair motif more than one stair of three interactions, each row records a triplet to maintain uniformity.
 
-PInteract.txt: Human-readable summary, including all information in the CSV files, with comments prefixed by #.
+PInteract.txt: Human-readable results file, including all information contained in the CSV files, with comments prefixed by #.
 
 
 ---
