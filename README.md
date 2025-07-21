@@ -4,7 +4,7 @@
 **PInteract** is a tool for the identification of π-involving interactions in protein structures and complexes, including protein–protein, protein–DNA, protein-RNA, and protein–ligand systems. Based on geometric criteria, it can detect:
 - Individual π-interaction types, including cation–π, amino-π, His-π, sulfur–π and π-π;
 - Clusters or chains of π interactions;
-- Stair motifs, which are recurrent motifs at protein-DNA/RNA interfaces and combine $\pi$-$\pi$ stacking, cation/amino/His-$\pi$ and H-bond interactions.
+- Stair motifs, which are recurrent motifs at protein-DNA/RNA interfaces and combine π-π stacking, cation/amino/His-π and H-bond interactions.
 
 
 📄 _For full details, please refer to our publication:_  
@@ -17,9 +17,9 @@
 To install **PInteract**, first clone the repository and set up the alias:
 
 ```bash
-cd /your/path/
+cd /your_path/
 git clone https://github.com/3BioCompBio/PInteract.git 
-alias PInteract="/your/path/PInteract/exec/PInteract"
+alias PInteract="/your_path/PInteract/exec/PInteract"
 ```
 
 Then go to the PInteract directory and compile:
@@ -59,7 +59,7 @@ Key parameters:
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 
 ## 📤 Output
-PInteract generates three output files:
+PInteract generates three output files in the directory containing the pdb files (ensure that the directory has write permissions enabled):
 
 PInteract.csv: Table of individual π interactions; each row corresponds to a single interaction.
 
