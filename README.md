@@ -1,10 +1,10 @@
 
 # 🧬 PInteract: 
 
-**PInteract** is a tool for the identification of π-involving interactions in protein structures and complexes, including protein–protein, protein–DNA/RNA, and protein–ligand systems. Based on geometric criteria, it can detect:
+**PInteract** is a tool for the identification of π-involving interactions in protein structures and complexes, including protein–protein, protein–DNA, protein-RNA, and protein–ligand systems. Based on geometric criteria, it can detect:
 - Individual π-interaction types, including cation–π, amino-π, His-π, sulfur–π and π-π;
-- Clusters of π interactions (i.e., π-chains);
-- Specific recurrent spatial motifs.
+- Clusters or chains of π interactions;
+- Stair motifs, which are recurrent motifs at protein-DNA/RNA interfaces and combine $\pi$-$\pi$ stacking, cation/amino/His-$\pi$ and H-bond interactions.
 
 
 📄 _For full details, please refer to our publication:_  
@@ -43,28 +43,29 @@ PInteract
 * When prompted, provide the directory name (e.g., `my_pdbs`) containing your structures.
 
 ## ⚙️ Hyper-parameters
-Default parameters are stored in the file `parameters_default`. You may override them by creating a new file named `parameters` in the same directory. Do not modify `parameters_default` directly.
+Default parameters are stored in the files `parameters_default` and `parameters`. You may modify them by modifying the file named `parameters`. Do not modify the `parameters_default` file.
 
 Key parameters:
 
-| Parameter     | Description                                                                                |
-| ------------- | ------------------------------------------------------------------------------------------ |
-| `CATDmax`     | Max distance for cation–π, amino–π, and His–π interactions (in Ångström) |
-| `CATangmax1`  | Angular factor defining the interaction cylinder (see paper)                               |
-| `PiPiDmax`    | Max distance for π–π interactions                                              |
-| `PiPiangmax1` | Angular factor for π–π                                                         |
-| `SPiDmax`     | Max distance for sulfur–π interactions                                               |
-| `SPiangmax1`  | Angular factor for sulfur–π                                                          |
-| `redundancy`  | 1 = report all interactions for all chains; 0 = suppress duplicates in identical chains    |
+| Parameter     | Description (see our article for details on the calculation of the distance and on the cylindrical model)                           |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| `CATDmax`     | Maximum distance between the closest atoms in the functional groups for cation–π, amino–π and His–π interactions (in Ångström)      |
+| `CATangmax1`  | The radius of the cylinder's basis is CATangmax1 times the radius of the aromatic ring for cation–π, amino–π and His–π interactions |
+| `PiPiDmax`    | Maximum distance the closest atoms in the functional groups for π–π interactions                                                    |
+| `PiPiangmax1` | The radius of the cylinder's basis is PiPiangmax1 times the radius of the aromatic ring for π–π interactions                        |
+| `SPiDmax`     | Maximum distance the closest atoms in the functional groups for sulfur–π interactions                                               |
+| `SPiangmax1`  | The radius of the cylinder's basis is SPiangmax1 times the radius of the aromatic ring for sulfur–π interactions                    |
+| `redundancy`  | 1 = report all interactions for all chains; 0 = suppress duplicates in identical chains                                             |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 
 ## 📤 Output
 PInteract generates three output files:
 
 PInteract.csv: Table of individual π interactions; each row corresponds to a single interaction.
 
-PInteract1.csv: Table of π-interaction chains (triads). Even though a π-chain may involve more than three residues, each row records a triplet to maintain uniformity.
+PInteract1.csv: Table of π-interaction chains and of stair motifs. Even though a π-chain may involve more than three residues, and a stair motif more than one stair of three interactions, each row records a triplet to maintain uniformity.
 
-PInteract.txt: Human-readable summary, including all information in the CSV files, with comments prefixed by \#.
+PInteract.txt: Human-readable summary, including all information in the CSV files, with comments prefixed by #.
 
 
 ---
