@@ -56,7 +56,6 @@ Key parameters:
 | `SPiDmax`     | Maximum distance between the closest atoms in the functional groups for sulfur–π interactions                                               |
 | `SPiangmax1`  | The radius of the cylinder's basis is SPiangmax1 times the radius of the aromatic ring for sulfur–π interactions                    |
 | `redundancy`  | 1 = report all interactions for all chains; 0 = suppress duplicates in identical chains                                             |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 
 ## 📤 Output
 PInteract generates three output files in the directory containing the pdb files (ensure that the directory has write permissions enabled):
