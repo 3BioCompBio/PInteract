@@ -51,9 +51,9 @@ Key parameters:
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | `CATDmax`     | Maximum distance between the closest atoms in the functional groups for cation–π, amino–π and His–π interactions (in Ångström)      |
 | `CATangmax1`  | The radius of the cylinder's basis is CATangmax1 times the radius of the aromatic ring for cation–π, amino–π and His–π interactions |
-| `PiPiDmax`    | Maximum distance the closest atoms in the functional groups for π–π interactions                                                    |
+| `PiPiDmax`    | Maximum distance between the closest atoms in the functional groups for π–π interactions                                                    |
 | `PiPiangmax1` | The radius of the cylinder's basis is PiPiangmax1 times the radius of the aromatic ring for π–π interactions                        |
-| `SPiDmax`     | Maximum distance the closest atoms in the functional groups for sulfur–π interactions                                               |
+| `SPiDmax`     | Maximum distance between the closest atoms in the functional groups for sulfur–π interactions                                               |
 | `SPiangmax1`  | The radius of the cylinder's basis is SPiangmax1 times the radius of the aromatic ring for sulfur–π interactions                    |
 | `redundancy`  | 1 = report all interactions for all chains; 0 = suppress duplicates in identical chains                                             |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
