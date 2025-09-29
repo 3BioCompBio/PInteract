@@ -8,7 +8,7 @@
 
 
 📄 _For full details, please refer to our publication:_  
-**D. Li, F. Pucci, M. Rooman** [PInteract: detecting aromatic-involving interactions in proteins and protein-nucleic acid complexes](https://www.google.com/) _(submitted)_
+**D. Li, F. Pucci, M. Rooman** [PInteract: detecting aromatic-involving interactions in proteins and protein-nucleic acid complexes](https://doi.org/10.3390/biom15081204) _(submitted)_
 
 ---
 
